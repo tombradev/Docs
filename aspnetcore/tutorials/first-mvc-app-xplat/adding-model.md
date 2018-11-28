@@ -47,6 +47,7 @@ Open a terminal window in the project folder and run the following commands:
 
 ```
 dotnet restore
+dotnet tool install --global dotnet-aspnet-codegenerator
 dotnet aspnet-codegenerator controller -name MoviesController -m Movie -dc MvcMovieContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries 
 ```
 The scaffolding engine creates the following:
